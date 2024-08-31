@@ -18,7 +18,7 @@ class RecommendationModel(Base):
     firstName = Column(String,nullable = True)
     lastName = Column(String,nullable = True)
     displayName = Column(String,nullable = True)
-    martialalStatus =  Column(String,nullable = True) # Married , unmarried , widdows , nulled , diverce etc
+    maritalStatus =  Column(String,nullable = True) # Married , unmarried , widdows , nulled , diverce etc
     numberOfChildren =  Column(String,nullable = True)
     aboutYourSelf =  Column(String,nullable = True)
     caste =  Column(String,nullable = True)
